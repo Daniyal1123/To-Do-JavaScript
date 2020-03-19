@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+  </head>
+  <body>
+    <section class="container">
+  
+        <h1>To-Do App</h1>
+        
+        <div class="new-task-container box">
+        
+        <label for="new-task">Add New Task</label>
+        <div  class="divcontainer"><input type="text" id="new-task" class="form-control" style="width: 50%;"></div>
+        
+          <button id="addTask" class="btn btn-success">Add Task</button>
+       
+        </div>
+        
+        <div class="todo-list box">
+        
+          <h2>Incomplete Tasks = <span id="item-count">2</span></h2>
+          <ul>
+            <li><input type="checkbox"><label>Danial Learning Js </lable></li>
+              <li><input type="checkbox"><label>Danial with React </lable></li>
+           
+          </ul>
+        
+        </div>
+        
+        <div class="complete-list box">
+          
+          <h2>Completed Tasks = <span id="checking">1</span></h2>
+          <ul>
+            <li>Delete Task 1<button class="btn btn-danger">Delete</button></li>
+      
+          </ul>
+          
+          
+        </div>
+        
+        
+        
+        
+        
+      </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
